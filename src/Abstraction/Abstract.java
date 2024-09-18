@@ -20,3 +20,6 @@ abstract class Animal {
     }
   }
   
+  //abstract method should be inside the abstract class
+  //abstract method should not have body
+  //in abstract function all the child class should overwrite abstract function

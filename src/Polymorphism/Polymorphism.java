@@ -24,3 +24,6 @@ public class Polymorphism {
         myDog.animalSound();
     }
 }
+
+//function automatically finds even if we give the same name for differebt functions.
+//Example-analyzing the number of arguments we given the function will automatically finds and displays the result

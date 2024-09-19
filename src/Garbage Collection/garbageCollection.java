@@ -9,7 +9,7 @@ public class garbageCollection {
         try{
             Thread.sleep(1000);
         }catch(InterruptedException e){
-             e.printStackTrace();
+             e.printStackTrace();//prints the details of the error
         }
        System.out.println("End of main");
     }

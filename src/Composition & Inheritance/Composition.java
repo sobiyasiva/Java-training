@@ -1,31 +1,25 @@
 class Engine {
-    public void start() {
-        System.out.println("Engine has started.");
-    }
-    public void stop() {
-        System.out.println("Engine has stopped.");
-    }
+    // Engine properties and behaviors
 }
+
+class Wheels {
+    // Wheels properties and behaviors
+}
+
 class Car {
-    private Engine engine; 
+    private Engine engine;
+    private Wheels wheels;
+    
     public Car() {
-        engine = new Engine();  
+        this.engine = new Engine();
+        this.wheels = new Wheels();
     }
-    public void startCar() {
-        engine.start(); 
-        System.out.println("Car has started.");
-    }
-    public void stopCar() {
-        engine.stop();  
-        System.out.println("Car has stopped.");
+    
+    public void drive() {
+        System.out.println("Car is driving!");
     }
 }
-public class Composition {
-    public static void main(String[] args) {
-        Car myCar = new Car();  
-        myCar.startCar();     
-        myCar.stopCar();        
-    } 
-}
+
+//using one class object inside the other class-composition
 //  private Engine engine;-this is more important here bz it says the engine is hidden inside the car .i.e private
 //the car can be usable but cannot be changed from outside

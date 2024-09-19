@@ -25,5 +25,5 @@ public class Polymorphism {
     }
 }
 
-//function automatically finds even if we give the same name for differebt functions.
+//function automatically finds even if we give the same name for different functions.
 //Example-analyzing the number of arguments we given the function will automatically finds and displays the result

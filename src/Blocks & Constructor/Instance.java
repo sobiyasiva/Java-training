@@ -14,3 +14,5 @@ public class Instance{
         Instance obj2 = new Instance();
     }
 }
+//constructor automatically initialize values when we not manually initialize values to the variable or etc...
+//without calling any method in the main constructor method automatically prints the value

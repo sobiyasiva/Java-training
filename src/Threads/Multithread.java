@@ -15,13 +15,13 @@ class myTask implements Runnable {
 }
 public class Multithread {
     public static void main(String[] args) {
-        MyTask task = new MyTask();  // Step 2: Create an object of the MyTask class (thread)
-        task.start();  // Step 3: Start the thread (it will run the code in the run method)       
+        MyTask task = new MyTask();  
+        task.start();       
         System.out.println("Main thread is still running.");
         // ----------------------------------------------------------
-        myTask task2 = new myTask();  // Step 2: Create an object of the MyTask class (Runnable)
-        Thread thread = new Thread(task2);  // Step 3: Pass the task to a new Thread
-        thread.start();  // Step 4: Start the thread
+        myTask task2 = new myTask();  
+        Thread thread = new Thread(task2);  
+        thread.start();  
         
         System.out.println("Main thread is still running.");
     }

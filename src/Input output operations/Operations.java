@@ -1,8 +1,8 @@
-import java.io.File;
-import java.io.FileNotFoundException;
+import java.io.File;//used to check if the file exists
+import java.io.FileNotFoundException;//subclass of IO Exception that indicates file not found error
 import java.util.Scanner;
-import java.io.FileWriter;
-import java.io.IOException;
+import java.io.FileWriter;//used to write data to the file either by appending or overwriting
+import java.io.IOException;//general exception for I/O issues
 public class Operations {
     public static void main(String[] args) {
         try {

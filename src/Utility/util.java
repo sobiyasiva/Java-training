@@ -23,9 +23,9 @@ public class util {
          // -------------------------------------------------------
 
         String emailRegex = "^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\\.[a-z]{2,6}$";
-        Pattern pattern = Pattern.compile(emailRegex);
+        Pattern pattern = Pattern.compile(emailRegex);//we are creating a pattern to check inside the string
         String email = "test@example.com";
-        Matcher matcher = pattern.matcher(email);
+        Matcher matcher = pattern.matcher(email);//checks the original content inside the original string by using the pattern we are giving 
         if (matcher.matches()) {
             System.out.println(email + " is a valid email address.");
         } else {

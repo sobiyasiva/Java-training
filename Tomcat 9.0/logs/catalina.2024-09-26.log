@@ -1,0 +1,77 @@
+26-Sep-2024 15:49:38.349 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.95
+26-Sep-2024 15:49:38.364 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Sep 13 2024 18:07:47 UTC
+26-Sep-2024 15:49:38.364 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.95.0
+26-Sep-2024 15:49:38.364 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+26-Sep-2024 15:49:38.364 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+26-Sep-2024 15:49:38.364 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+26-Sep-2024 15:49:38.364 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jdk-22
+26-Sep-2024 15:49:38.364 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           22.0.2+9-70
+26-Sep-2024 15:49:38.364 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+26-Sep-2024 15:49:38.364 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\Users\ADMIN\Desktop\Java training\Tomcat 9.0
+26-Sep-2024 15:49:38.364 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\Users\ADMIN\Desktop\Java training\Tomcat 9.0
+26-Sep-2024 15:49:38.364 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dstdout.encoding=UTF-8
+26-Sep-2024 15:49:38.364 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dstderr.encoding=UTF-8
+26-Sep-2024 15:49:38.364 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+26-Sep-2024 15:49:38.364 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+26-Sep-2024 15:49:38.364 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+26-Sep-2024 15:49:38.380 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+26-Sep-2024 15:49:38.380 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+26-Sep-2024 15:49:38.380 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\Users\ADMIN\Desktop\Java training\Tomcat 9.0\conf\logging.properties
+26-Sep-2024 15:49:38.380 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+26-Sep-2024 15:49:38.380 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+26-Sep-2024 15:49:38.380 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+26-Sep-2024 15:49:38.380 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+26-Sep-2024 15:49:38.380 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\Users\ADMIN\Desktop\Java training\Tomcat 9.0
+26-Sep-2024 15:49:38.380 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\Users\ADMIN\Desktop\Java training\Tomcat 9.0
+26-Sep-2024 15:49:38.380 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\Users\ADMIN\Desktop\Java training\Tomcat 9.0\temp
+26-Sep-2024 15:49:38.380 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [C:\Program Files\Java\jdk-22\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files\Java\jdk-22\bin;C:\Program Files\Apache Software Foundation\Tomcat 9.0;C:\Python312\Scripts\;C:\Python312\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\Program Files\nodejs\;C:\ProgramData\chocolatey\bin;C:\Users\ADMIN\AppData\Local\Microsoft\WindowsApps;C:\Users\ADMIN\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\ADMIN\AppData\Local\Microsoft\WinGet\Packages\Schniz.fnm_Microsoft.Winget.Source_8wekyb3d8bbwe;C:\Users\ADMIN\AppData\Roaming\npm;.]
+26-Sep-2024 15:49:38.771 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+26-Sep-2024 15:49:38.787 SEVERE [main] org.apache.catalina.util.LifecycleBase.handleSubClassException Failed to initialize component [Connector["http-nio-8080"]]
+	org.apache.catalina.LifecycleException: Protocol handler initialization failed
+		at org.apache.catalina.connector.Connector.initInternal(Connector.java:1027)
+		at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:122)
+		at org.apache.catalina.core.StandardService.initInternal(StandardService.java:525)
+		at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:122)
+		at org.apache.catalina.core.StandardServer.initInternal(StandardServer.java:986)
+		at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:122)
+		at org.apache.catalina.startup.Catalina.load(Catalina.java:686)
+		at org.apache.catalina.startup.Catalina.load(Catalina.java:709)
+		at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+		at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+		at org.apache.catalina.startup.Bootstrap.load(Bootstrap.java:302)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:472)
+	Caused by: java.net.BindException: Address already in use: bind
+		at java.base/sun.nio.ch.Net.bind0(Native Method)
+		at java.base/sun.nio.ch.Net.bind(Net.java:565)
+		at java.base/sun.nio.ch.ServerSocketChannelImpl.netBind(ServerSocketChannelImpl.java:344)
+		at java.base/sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:301)
+		at org.apache.tomcat.util.net.NioEndpoint.initServerSocket(NioEndpoint.java:268)
+		at org.apache.tomcat.util.net.NioEndpoint.bind(NioEndpoint.java:223)
+		at org.apache.tomcat.util.net.AbstractEndpoint.bindWithCleanup(AbstractEndpoint.java:1373)
+		at org.apache.tomcat.util.net.AbstractEndpoint.init(AbstractEndpoint.java:1386)
+		at org.apache.coyote.AbstractProtocol.init(AbstractProtocol.java:663)
+		at org.apache.coyote.http11.AbstractHttp11Protocol.init(AbstractHttp11Protocol.java:77)
+		at org.apache.catalina.connector.Connector.initInternal(Connector.java:1025)
+		... 11 more
+26-Sep-2024 15:49:38.791 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [633] milliseconds
+26-Sep-2024 15:49:38.838 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+26-Sep-2024 15:49:38.838 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.95]
+26-Sep-2024 15:49:38.854 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\ADMIN\Desktop\Java training\Tomcat 9.0\webapps\docs]
+26-Sep-2024 15:49:39.151 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\ADMIN\Desktop\Java training\Tomcat 9.0\webapps\docs] has finished in [297] ms
+26-Sep-2024 15:49:39.151 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\ADMIN\Desktop\Java training\Tomcat 9.0\webapps\examples]
+26-Sep-2024 15:49:39.619 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\ADMIN\Desktop\Java training\Tomcat 9.0\webapps\examples] has finished in [468] ms
+26-Sep-2024 15:49:39.619 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\ADMIN\Desktop\Java training\Tomcat 9.0\webapps\host-manager]
+26-Sep-2024 15:49:39.650 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\ADMIN\Desktop\Java training\Tomcat 9.0\webapps\host-manager] has finished in [31] ms
+26-Sep-2024 15:49:39.650 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\ADMIN\Desktop\Java training\Tomcat 9.0\webapps\JSPDemo]
+26-Sep-2024 15:49:39.697 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\ADMIN\Desktop\Java training\Tomcat 9.0\webapps\JSPDemo] has finished in [47] ms
+26-Sep-2024 15:49:39.697 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\ADMIN\Desktop\Java training\Tomcat 9.0\webapps\manager]
+26-Sep-2024 15:49:39.729 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\ADMIN\Desktop\Java training\Tomcat 9.0\webapps\manager] has finished in [32] ms
+26-Sep-2024 15:49:39.729 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\ADMIN\Desktop\Java training\Tomcat 9.0\webapps\ROOT]
+26-Sep-2024 15:49:39.760 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\ADMIN\Desktop\Java training\Tomcat 9.0\webapps\ROOT] has finished in [31] ms
+26-Sep-2024 15:49:39.760 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [978] milliseconds
+26-Sep-2024 16:15:52.051 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.reload Reloading context [/host-manager]
+26-Sep-2024 16:15:52.051 INFO [Catalina-utility-2] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/host-manager] has started
+26-Sep-2024 16:15:52.083 INFO [Catalina-utility-2] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/host-manager] is completed
+26-Sep-2024 17:16:57.868 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.reload Reloading context [/host-manager]
+26-Sep-2024 17:16:57.869 INFO [Catalina-utility-2] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/host-manager] has started
+26-Sep-2024 17:16:57.966 INFO [Catalina-utility-2] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/host-manager] is completed

@@ -39,8 +39,10 @@ public class RemoveDuplicatesWithValidation {
         scanner.close();
     }
     public static String[] removeDuplicates(String[] array) {
+        //String[]-method that returns array of strings
+        //(String[] array)-array of inputs that we given
         List<String> list = Arrays.asList(array);
         Set<String> uniqueSet = new LinkedHashSet<>(list);
-        return uniqueSet.toArray(new String[0]);
+        return uniqueSet.toArray(new String[0]);//converts set back to array
     }
 }

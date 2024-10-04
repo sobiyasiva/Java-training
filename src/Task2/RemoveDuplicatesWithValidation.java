@@ -1,7 +1,6 @@
 package Task2;
 import java.util.Arrays;
 import java.util.LinkedHashSet;
-import java.util.List;
 import java.util.Scanner;
 import java.util.Set;
 
@@ -12,37 +11,47 @@ public class RemoveDuplicatesWithValidation {
         boolean isValidInput = false;
 
         while (!isValidInput) {
-            System.out.println("Enter the value : ");
+            System.out.println("Enter the value:");
             input = scanner.nextLine().trim();
+
+            
             if (input.isEmpty()) {
-                System.out.println("Input should not be empty.");
+                System.out.println("Input should not be empty. Please try again.");
                 continue;
             }
-            if (!input.matches("^[a-zA-Z0-9 ]+$")) {
-                System.out.println("Input contains special characters. Please try again.");
+
+            
+            if (!input.matches("^[0-9\\s,]+$")) {
+                System.out.println("Input contains invalid characters. Please try again.");
                 continue;
             }
-            if (!input.contains(" ") && input.length() > 1) {
-                System.out.println("Multiple elements should be space-separated. Please try again.");
-                continue;
-            }
+
+            
             isValidInput = true;
-            String[] inputArray = input.split("\\s+");
+
+            
+            input = input.replace(",", " "); 
+            String[] inputArray = input.split("\\s+"); 
+
+            
             String[] uniqueArray = removeDuplicates(inputArray);
+
+            
             if (inputArray.length == uniqueArray.length) {
                 System.out.println("No duplicates found.");
             } else {
-                System.out.println("Array after removing duplicates: " + Arrays.toString(uniqueArray));
+                System.out.println("After removing duplicates: " + Arrays.toString(uniqueArray));
             }
         }
 
         scanner.close();
     }
+
     public static String[] removeDuplicates(String[] array) {
-        //String[]-method that returns array of strings
-        //(String[] array)-array of inputs that we given
-        List<String> list = Arrays.asList(array);
-        Set<String> uniqueSet = new LinkedHashSet<>(list);
-        return uniqueSet.toArray(new String[0]);//converts set back to array
+        Set<String> uniqueSet = new LinkedHashSet<>();
+        for (String element : array) {
+            uniqueSet.add(element);  
+        }
+        return uniqueSet.toArray(new String[0]);
     }
 }

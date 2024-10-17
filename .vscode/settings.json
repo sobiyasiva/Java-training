@@ -1,7 +1,11 @@
 {
-    "java.project.sourcePaths": ["src"],
+    "java.project.sourcePaths": [
+        "src"
+    ],
     "java.project.outputPath": "bin",
     "java.project.referencedLibraries": [
-        "lib/**/*.jar"
+        "c:\\Users\\ADMIN\\Desktop\\Java training\\lib\\junit-4.13.2.jar",
+        "c:\\Users\\ADMIN\\Desktop\\Java training\\lib\\mysql-connector-j-9.0.0.jar",
+        "c:\\Users\\ADMIN\\Desktop\\Java training\\lib\\hamcrest-core-1.3.jar"
     ]
 }
